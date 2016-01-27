@@ -1,6 +1,6 @@
 <snippet>
-  <content><![CDATA[
-# ${1:3PL Central Integration Plugin}
+  <content>
+# 3PL Central Integration Plugin
 This plugin bridges the connection between your WooCommerce order system, and your 3PL Central Warehouse integration back-office.
 ## Installation
 Simply activate the plugin in your WordPress plugin dependency menu.  Then go to Settings -> 3PL Central API Settings, and fill out your API settings provided to you from 3PL Central or your 3PL Central provider.
@@ -220,7 +220,6 @@ Thomas Cutting ( http://www.thomasc.me )
    distributed under the License is distributed on an "AS IS" BASIS,
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
-   limitations under the License.
-]]></content>
-  <tabTrigger>readme</tabTrigger>
+   limitations under the License.</content>
+  <tabTrigger></tabTrigger>
 </snippet>

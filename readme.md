@@ -1,23 +1,32 @@
 <snippet>
   <content>
 # 3PL Central Integration Plugin
-This plugin bridges the connection between your WooCommerce order system, and your 3PL Central Warehouse integration back-office.
+This plugin bridges the connection between your Woo-commerce order system, and your 3PL Central Warehouse integration back-office.
 ## Installation
-Simply activate the plugin in your WordPress plugin dependency menu.  Then go to Settings -> 3PL Central API Settings, and fill out your API settings provided to you from 3PL Central or your 3PL Central provider.
+Simply activate the plugin in your WordPress plugin dependency menu.  Then go to Settings -> 3PL Central API Settings, and fill out your API settings provided to you from 3PL Central or your 3PL Central vendor.
 ## Usage
-This plugin hooks into your WooCommerce order system - the process, onwards from configuration is fully automated.
+This plugin hooks into your Woo-commerce order system - the process, on wards from configuration is fully automated.
+
 ## Contributing
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
+ - Fork it!
+ - Create your feature branch: `git checkout -b my-new-feature`
+ - Commit your changes: `git commit -am 'Add some feature'`
+ - Push to the branch: `git push origin my-new-feature`
+ - Submit a pull request :D
+
 ## History
-1/27/16 - Initial Commit To Branch.
-## Todo
-Integrate WooCommerce fully ( Implement custom order statuses ( WooCommerce has now dis-allowed custom order statuses, so I must implement some kind of work-around. ), Implement full WooCommerce hook implementation ( WooCommerce on order pending, new up a SoapPromise/Promise - to increase effective use of the OO based system. ) )
+1/27/16 - Initial commit to branch.
+1/28/16 - Integration w/ deployment of Woo-commerce.
+
+## To-do
+ - Integrate Woo-commerce fully
+	 - Implement custom order statuses ( Woo-commerce has now disallowed custom order statuses, so I must implement some kind of work-around. )
+	 - Implement full Woo-commerce hook implementation
+
 ## Credits
-Thomas Cutting ( http://www.thomasc.me )
+Built By - [Thomas Cutting](http://www.thomasc.me/)
+If you need support integrating - email [thomasfcutting@gmail.com](mailto:thomasfcutting@gmail.com)
+
 ## License
 
                                  Apache License

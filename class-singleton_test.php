@@ -4,7 +4,7 @@ require 'autoload.php';
 require 'classes/autoload.php';
 
 // Create a new ThreeCentralAPI Class
-$a = new ThreeCentralAPI("{ae89686b-e927-4abc-8c60-c340995f9b72}", "479", "23", "1", "Incapi", "Incapi");
+$a = new ThreeCentralAPI("{REDACTED}", "479", "23", "1", "Incapi", "Incapi");
 
 // Retrieve the SoapClient
 $b = $a->getClient();

@@ -23,10 +23,6 @@ This plugin hooks into your Woo-commerce order system - the process, on wards fr
 	 - Implement custom order statuses ( Woo-commerce has now disallowed custom order statuses, so I must implement some kind of work-around. )
 	 - Implement full Woo-commerce hook implementation
 
-## Credits
-Built By - [Thomas Cutting](http://www.thomasc.me/)
-If you need support integrating - email [thomasfcutting@gmail.com](mailto:thomasfcutting@gmail.com)
-
 ## License
 
                                  Apache License
